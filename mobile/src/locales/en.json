@@ -1,0 +1,203 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "loading": "Loading…",
+    "error": "Something went wrong",
+    "retry": "Try again",
+    "ok": "OK",
+    "create": "Create",
+    "join": "Join",
+    "undo": "Undo",
+    "add": "Add",
+    "archive": "Archive",
+    "unarchive": "Restore",
+    "confirm": "Confirm",
+    "required": "Required",
+    "amount": "Amount",
+    "customAmount": "Other amount",
+    "soon": "coming soon",
+    "share": "Share",
+    "you": "you"
+  },
+  "auth": {
+    "signIn": "Sign in",
+    "signUp": "Create account",
+    "email": "Email",
+    "password": "Password",
+    "displayName": "What should we call you",
+    "noAccount": "No account yet? Create one",
+    "haveAccount": "Already have an account? Sign in",
+    "signOut": "Sign out",
+    "checkEmail": "Account created. Confirm the email we sent you, then sign in.",
+    "tagline": "Habits every day. Compete with friends."
+  },
+  "tabs": {
+    "today": "Today",
+    "habits": "Habits",
+    "clubs": "Clubs",
+    "profile": "Profile"
+  },
+  "today": {
+    "summary": "{{done}} of {{total}} done",
+    "empty": "Nothing for today",
+    "emptyHint": "Create your first habit in the Habits tab.",
+    "done": "Done",
+    "pending": "Pending",
+    "clean": "Clean today",
+    "slips_one": "{{count}} slip",
+    "slips_other": "{{count}} slips",
+    "slip": "Slip",
+    "daysThisWeek": "{{done}}/{{target}} days this week",
+    "ofGoal": "{{total}} / {{goal}}",
+    "thisWeek": "this week",
+    "thisMonth": "this month",
+    "syncSoon": "Watch sync coming soon"
+  },
+  "habits": {
+    "title": "Habits",
+    "new": "New habit",
+    "empty": "No habits yet",
+    "emptyHint": "Tap + to create your first one.",
+    "showArchived": "Show archived",
+    "hideArchived": "Hide archived",
+    "archived": "Archived"
+  },
+  "habit": {
+    "title": "Habit",
+    "name": "Name",
+    "namePlaceholder": "E.g. Drink water",
+    "kind": "Type",
+    "kinds": {
+      "bool": "Yes or no",
+      "counter": "Counter",
+      "duration": "Duration",
+      "quantity": "Quantity",
+      "catalog": "Catalog",
+      "integration": "Automatic"
+    },
+    "unit": "Unit",
+    "unitPlaceholder": "ml, pages, km…",
+    "goal": "Goal",
+    "goalWindow": "Per",
+    "windows": {
+      "day": "day",
+      "week": "week",
+      "month": "month"
+    },
+    "frequency": "Frequency",
+    "frequencies": {
+      "daily": "Every day",
+      "times_per_week": "X times a week",
+      "weekdays": "Specific weekdays",
+      "every_n_days": "Every N days"
+    },
+    "timesPerWeek": "Times per week",
+    "everyNDays": "Every how many days",
+    "weekdaysShort": ["S", "M", "T", "W", "T", "F", "S"],
+    "step": "Quick-tap increment",
+    "negative": "Negative habit",
+    "negativeHint": "Something you want to stop doing. The day counts as clean until you log a slip.",
+    "visibility": "Who can see it",
+    "visibilities": {
+      "private": "Only me",
+      "friends": "Friends",
+      "public": "Everyone"
+    },
+    "integrationMetric": "Metric",
+    "metrics": {
+      "steps": "Steps",
+      "distance_km": "Distance (km)"
+    },
+    "icon": "Icon",
+    "color": "Color",
+    "deleteConfirm": "Delete this habit and all of its entries?",
+    "catalogSoon": "Catalog habits (books, movies, series, games, podcasts) arrive in the next version."
+  },
+  "clubs": {
+    "title": "Clubs",
+    "empty": "You're not in any club yet",
+    "emptyHint": "Create a club or join with an invite code.",
+    "create": "Create club",
+    "join": "Join with code",
+    "inviteCode": "Invite code",
+    "name": "Club name",
+    "description": "Description",
+    "public": "Public club",
+    "publicHint": "Anyone can find it and join.",
+    "members": "Members",
+    "invite": "Invite",
+    "shareMessage": "Join my club {{name}} on LifeRats with code {{code}}",
+    "challenges": "Challenges",
+    "newChallenge": "New challenge",
+    "noChallenges": "No challenges yet",
+    "leave": "Leave club",
+    "leaveConfirm": "Leave this club?",
+    "invalidCode": "Invalid code",
+    "roles": {
+      "owner": "Owner",
+      "admin": "Admin",
+      "member": "Member"
+    }
+  },
+  "challenge": {
+    "title": "Challenge",
+    "new": "New challenge",
+    "name": "Name",
+    "namePlaceholder": "E.g. Most steps in November",
+    "description": "Description",
+    "starts": "Starts on",
+    "ends": "Ends on",
+    "dateHint": "YYYY-MM-DD",
+    "invalidDates": "Invalid dates",
+    "metric": "What counts",
+    "metrics": {
+      "steps": "Steps",
+      "distance_km": "Distance (km)",
+      "habit": "A habit"
+    },
+    "unit": "Habit unit",
+    "unitHint": "Each participant picks which of their habits counts. Leave empty to accept any.",
+    "verifiedOnly": "Automatic entries only",
+    "verifiedOnlyHint": "Manual entries don't count.",
+    "proof": "Photo proof",
+    "proofs": {
+      "none": "No photo",
+      "photo_optional": "Optional",
+      "photo_required": "Required"
+    },
+    "bet": "Bet",
+    "betPlaceholder": "E.g. loser buys dinner",
+    "betHint": "Just the agreement, in text. The app never handles money.",
+    "join": "Join",
+    "joined": "You're in",
+    "pickHabit": "Which of your habits counts?",
+    "noHabits": "You have no matching habit. Create one in the Habits tab.",
+    "leaderboard": "Leaderboard",
+    "noParticipants": "Nobody has joined yet",
+    "period": "{{start}} to {{end}}",
+    "states": {
+      "draft": "Draft",
+      "active": "Active",
+      "finished": "Finished"
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "displayName": "Name",
+    "handle": "Username",
+    "handleHint": "3 to 24 characters: lowercase letters, numbers and _",
+    "handleTaken": "That username is taken",
+    "timezone": "Time zone",
+    "timezoneHint": "Updated automatically from your device.",
+    "language": "Language",
+    "visibility": "Profile visibility",
+    "plan": "Plan",
+    "plans": {
+      "free": "Free",
+      "pro": "Pro"
+    },
+    "saved": "Profile saved"
+  }
+}

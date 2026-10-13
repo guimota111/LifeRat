@@ -1,0 +1,5 @@
+{
+  "CFBundleDisplayName": "LifeRats",
+  "NSCameraUsageDescription": "To upload proof photos in challenges.",
+  "NSPhotoLibraryUsageDescription": "To pick your profile picture and proof photos."
+}

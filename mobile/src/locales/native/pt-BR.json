@@ -1,0 +1,5 @@
+{
+  "CFBundleDisplayName": "LifeRats",
+  "NSCameraUsageDescription": "Para enviar fotos de evidência nos desafios.",
+  "NSPhotoLibraryUsageDescription": "Para escolher sua foto de perfil e fotos de evidência."
+}

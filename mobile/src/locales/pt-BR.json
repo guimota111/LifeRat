@@ -1,0 +1,203 @@
+{
+  "common": {
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "delete": "Excluir",
+    "loading": "Carregando…",
+    "error": "Algo deu errado",
+    "retry": "Tentar de novo",
+    "ok": "OK",
+    "create": "Criar",
+    "join": "Entrar",
+    "undo": "Desfazer",
+    "add": "Adicionar",
+    "archive": "Arquivar",
+    "unarchive": "Restaurar",
+    "confirm": "Confirmar",
+    "required": "Campo obrigatório",
+    "amount": "Quantidade",
+    "customAmount": "Outro valor",
+    "soon": "em breve",
+    "share": "Compartilhar",
+    "you": "você"
+  },
+  "auth": {
+    "signIn": "Entrar",
+    "signUp": "Criar conta",
+    "email": "E-mail",
+    "password": "Senha",
+    "displayName": "Como quer ser chamado",
+    "noAccount": "Ainda não tem conta? Criar uma",
+    "haveAccount": "Já tem conta? Entrar",
+    "signOut": "Sair da conta",
+    "checkEmail": "Conta criada. Confirme o e-mail que enviamos e depois entre.",
+    "tagline": "Hábitos todo dia. Competição com amigos."
+  },
+  "tabs": {
+    "today": "Hoje",
+    "habits": "Hábitos",
+    "clubs": "Clubes",
+    "profile": "Perfil"
+  },
+  "today": {
+    "summary": "{{done}} de {{total}} feitos",
+    "empty": "Nada para hoje",
+    "emptyHint": "Crie seu primeiro hábito na aba Hábitos.",
+    "done": "Feito",
+    "pending": "Pendente",
+    "clean": "Limpo hoje",
+    "slips_one": "{{count}} recaída",
+    "slips_other": "{{count}} recaídas",
+    "slip": "Recaída",
+    "daysThisWeek": "{{done}}/{{target}} dias esta semana",
+    "ofGoal": "{{total}} / {{goal}}",
+    "thisWeek": "esta semana",
+    "thisMonth": "este mês",
+    "syncSoon": "Sincronização com o relógio em breve"
+  },
+  "habits": {
+    "title": "Hábitos",
+    "new": "Novo hábito",
+    "empty": "Nenhum hábito ainda",
+    "emptyHint": "Toque em + para criar o primeiro.",
+    "showArchived": "Mostrar arquivados",
+    "hideArchived": "Esconder arquivados",
+    "archived": "Arquivado"
+  },
+  "habit": {
+    "title": "Hábito",
+    "name": "Nome",
+    "namePlaceholder": "Ex.: Beber água",
+    "kind": "Tipo",
+    "kinds": {
+      "bool": "Sim ou não",
+      "counter": "Contador",
+      "duration": "Duração",
+      "quantity": "Quantidade",
+      "catalog": "Catálogo",
+      "integration": "Automático"
+    },
+    "unit": "Unidade",
+    "unitPlaceholder": "ml, páginas, km…",
+    "goal": "Meta",
+    "goalWindow": "Por",
+    "windows": {
+      "day": "dia",
+      "week": "semana",
+      "month": "mês"
+    },
+    "frequency": "Frequência",
+    "frequencies": {
+      "daily": "Todo dia",
+      "times_per_week": "X vezes por semana",
+      "weekdays": "Dias da semana",
+      "every_n_days": "A cada N dias"
+    },
+    "timesPerWeek": "Vezes por semana",
+    "everyNDays": "A cada quantos dias",
+    "weekdaysShort": ["D", "S", "T", "Q", "Q", "S", "S"],
+    "step": "Incremento do toque rápido",
+    "negative": "Hábito negativo",
+    "negativeHint": "Algo que você quer parar de fazer. O dia conta como limpo até você registrar uma recaída.",
+    "visibility": "Quem pode ver",
+    "visibilities": {
+      "private": "Só eu",
+      "friends": "Amigos",
+      "public": "Todo mundo"
+    },
+    "integrationMetric": "Métrica",
+    "metrics": {
+      "steps": "Passos",
+      "distance_km": "Distância (km)"
+    },
+    "icon": "Ícone",
+    "color": "Cor",
+    "deleteConfirm": "Excluir este hábito e todos os registros dele?",
+    "catalogSoon": "Hábitos de catálogo (livros, filmes, séries, jogos, podcasts) chegam na próxima versão."
+  },
+  "clubs": {
+    "title": "Clubes",
+    "empty": "Você ainda não está em nenhum clube",
+    "emptyHint": "Crie um clube ou entre com um código de convite.",
+    "create": "Criar clube",
+    "join": "Entrar com código",
+    "inviteCode": "Código de convite",
+    "name": "Nome do clube",
+    "description": "Descrição",
+    "public": "Clube público",
+    "publicHint": "Qualquer pessoa pode encontrar e entrar.",
+    "members": "Membros",
+    "invite": "Convidar",
+    "shareMessage": "Entra no meu clube {{name}} no LifeRats com o código {{code}}",
+    "challenges": "Desafios",
+    "newChallenge": "Novo desafio",
+    "noChallenges": "Nenhum desafio ainda",
+    "leave": "Sair do clube",
+    "leaveConfirm": "Sair deste clube?",
+    "invalidCode": "Código inválido",
+    "roles": {
+      "owner": "Dono",
+      "admin": "Admin",
+      "member": "Membro"
+    }
+  },
+  "challenge": {
+    "title": "Desafio",
+    "new": "Novo desafio",
+    "name": "Nome",
+    "namePlaceholder": "Ex.: Quem anda mais em novembro",
+    "description": "Descrição",
+    "starts": "Começa em",
+    "ends": "Termina em",
+    "dateHint": "AAAA-MM-DD",
+    "invalidDates": "Datas inválidas",
+    "metric": "O que conta",
+    "metrics": {
+      "steps": "Passos",
+      "distance_km": "Distância (km)",
+      "habit": "Um hábito"
+    },
+    "unit": "Unidade do hábito",
+    "unitHint": "Cada participante escolhe qual hábito dele entra. Deixe vazio para aceitar qualquer um.",
+    "verifiedOnly": "Só registros automáticos",
+    "verifiedOnlyHint": "Registros manuais não contam.",
+    "proof": "Foto de evidência",
+    "proofs": {
+      "none": "Sem foto",
+      "photo_optional": "Opcional",
+      "photo_required": "Obrigatória"
+    },
+    "bet": "Aposta",
+    "betPlaceholder": "Ex.: perdedor paga o churrasco",
+    "betHint": "Só o combinado em texto. O app não movimenta dinheiro.",
+    "join": "Participar",
+    "joined": "Você está participando",
+    "pickHabit": "Qual hábito seu conta?",
+    "noHabits": "Você não tem hábito compatível. Crie um na aba Hábitos.",
+    "leaderboard": "Ranking",
+    "noParticipants": "Ninguém entrou ainda",
+    "period": "{{start}} a {{end}}",
+    "states": {
+      "draft": "Rascunho",
+      "active": "Ativo",
+      "finished": "Encerrado"
+    }
+  },
+  "profile": {
+    "title": "Perfil",
+    "displayName": "Nome",
+    "handle": "Usuário",
+    "handleHint": "3 a 24 caracteres: letras minúsculas, números e _",
+    "handleTaken": "Esse usuário já existe",
+    "timezone": "Fuso horário",
+    "timezoneHint": "Atualizado automaticamente pelo aparelho.",
+    "language": "Idioma",
+    "visibility": "Visibilidade do perfil",
+    "plan": "Plano",
+    "plans": {
+      "free": "Grátis",
+      "pro": "Pro"
+    },
+    "saved": "Perfil salvo"
+  }
+}
