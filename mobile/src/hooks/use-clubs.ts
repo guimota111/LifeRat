@@ -1,5 +1,6 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 
+import type { Json } from '@/lib/database.types';
 import { supabase } from '@/lib/supabase';
 import type {
   Challenge,
@@ -64,7 +65,8 @@ export function useClubChallenges(clubId: string) {
         .eq('club_id', clubId)
         .order('starts_on', { ascending: false });
       if (error) throw error;
-      return data as Challenge[];
+      // spec é jsonb no banco; o app conhece o formato (ChallengeSpec).
+      return data as unknown as Challenge[];
     },
   });
 }
@@ -75,7 +77,7 @@ export function useChallenge(id: string) {
     queryFn: async () => {
       const { data, error } = await supabase.from('challenges').select('*').eq('id', id).single();
       if (error) throw error;
-      return data as Challenge;
+      return data as unknown as Challenge;
     },
   });
 }
@@ -170,11 +172,11 @@ export function useCreateChallenge() {
     mutationFn: async (input: ChallengeInput) => {
       const { data, error } = await supabase
         .from('challenges')
-        .insert({ ...input, creator_id: uid, state: 'active' })
+        .insert({ ...input, spec: input.spec as unknown as Json, creator_id: uid, state: 'active' })
         .select('*')
         .single();
       if (error) throw error;
-      return data as Challenge;
+      return data as unknown as Challenge;
     },
     onSuccess: (c) => qc.invalidateQueries({ queryKey: ['challenges', c.club_id] }),
   });
