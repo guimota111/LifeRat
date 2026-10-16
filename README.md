@@ -48,6 +48,9 @@ Checagens antes de commitar:
 npm run typecheck
 npm run lint
 npx expo-doctor
+npm run test:e2e   # cria 2 usuários de teste no projeto linkado, exercita RLS, clube, desafio e ranking, e apaga tudo
 ```
+
+O teste ponta a ponta pega as chaves pela CLI (`supabase projects api-keys`), então exige `npx supabase login` feito. Confirmação de e-mail está desligada no projeto durante o desenvolvimento (`supabase/config.toml`, `[auth.email] enable_confirmations = false`); ligar antes de abrir ao público.
 
 Integrações nativas (HealthKit, Health Connect) vão exigir um development build (`eas build --profile development`); até lá o Expo Go basta.
